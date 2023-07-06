@@ -62,7 +62,7 @@ export const DeviceNameDialog = ({
             <Label>Long Name</Label>
             <Input {...register("longName")} />
             <Label>Short Name</Label>
-            <Input maxLength={4} {...register("shortName")} />
+            <Input maxLength={5} {...register("shortName")} />
           </form>
         </div>
         <DialogFooter>
