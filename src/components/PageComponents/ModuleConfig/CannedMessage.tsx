@@ -28,6 +28,12 @@ export const CannedMessage = (): JSX.Element => {
           fields: [
             {
               type: "toggle",
+              name: "enabled",
+              label: "Enabled",
+              description: "Enable the Canned Message Module"
+            },
+            {
+              type: "toggle",
               name: "rotary1Enabled",
               label: "Rotary Encoder #1 Enabled",
               description: "Enable the rotary encoder",
